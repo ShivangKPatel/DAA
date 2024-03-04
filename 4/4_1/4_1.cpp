@@ -68,6 +68,7 @@ void perform_Task(int n, int w){
 }
 
 int main(){
+    cout << "This program is prepared by 22CE097_Shivang Patel" << endl;
     int n;
     cout << "Enter number of data : ";
     cin >> n;

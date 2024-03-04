@@ -28,9 +28,10 @@ int recGCD(int a, int b){
 }
 
 int main(){
+     cout << "This program is prepared by 22CE097_ShivangPatel" << endl;
      int a, b;
      cin >> a >> b;
-     int result = recGCD(a, b); //recursive
-     cout << "Counter : " << Counter << endl; 
+     int result = GCD(a, b); //Iterative GCD
+     // cout << "Counter : " << Counter << endl; 
      cout << "Result : " << result << endl;
 }

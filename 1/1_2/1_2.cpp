@@ -13,6 +13,7 @@ int itrFibbo(int n){
           b = c;
           Counter = Counter + 5;
      }
+     Counter = Counter - 5;
      cout << "Counter : " << Counter << endl;
      return b;
 }
@@ -30,10 +31,11 @@ int recFibbo(int n){
 }
 
 int main(){
+     cout << "This program is prepared by 22CE097_Shivang Patel" << endl;
      int n;
      cin >> n;
-     int Result = itrFibbo(n);
-     // cout << "Counter : " << c << endl;
+     int Result = recFibbo(n);
+     cout << "Counter : " << c << endl;
      cout << "Result : " << Result << endl;
      return 0;
 }
